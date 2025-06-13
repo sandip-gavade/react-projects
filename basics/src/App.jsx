@@ -5,12 +5,14 @@ import CounterWithEffect from './components/CounterWithEffect';
 import AutoCounter from './components/AutoCounter';
 import UserFetcher from './components/UserFetcher';
 import ParentComponent from './components/ParentComponent';
-import LevelOne from './components/LevelOne';
+import LevelOne from './components/PropsLevelOne';
+import ContextLevelOne from './components/ContextApiLevelOne';
 
 function App() {
   return (
     <>
-      <LevelOne></LevelOne>
+      <ContextLevelOne></ContextLevelOne>
+      {/* <LevelOne></LevelOne> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <UserFetcher></UserFetcher> */}
       {/* <AutoCounter></AutoCounter> */}

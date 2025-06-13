@@ -1,5 +1,5 @@
 import React from 'react';
-import LevelTwo from './LevelTwo';
+import LevelTwo from './PropsLevelTwo';
 
 function LevelOne() {
   const message = 'Hello from Parent!';

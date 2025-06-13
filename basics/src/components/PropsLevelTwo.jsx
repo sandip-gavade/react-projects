@@ -1,5 +1,5 @@
 import React from 'react';
-import LevelThree from './LevelThree';
+import LevelThree from './PropsLevelThree';
 
 function LevelTwo({ message }) {
   return (
