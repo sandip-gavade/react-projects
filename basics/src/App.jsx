@@ -4,11 +4,15 @@ import UncontrolledForm from './components/UncontrolledForm';
 import CounterWithEffect from './components/CounterWithEffect';
 import AutoCounter from './components/AutoCounter';
 import UserFetcher from './components/UserFetcher';
+import ParentComponent from './components/ParentComponent';
+import LevelOne from './components/LevelOne';
 
 function App() {
   return (
     <>
-      <UserFetcher></UserFetcher>
+      <LevelOne></LevelOne>
+      {/* <ParentComponent></ParentComponent> */}
+      {/* <UserFetcher></UserFetcher> */}
       {/* <AutoCounter></AutoCounter> */}
       {/* <EventDemo></EventDemo> */}
       {/* <FormDemo></FormDemo> */}
