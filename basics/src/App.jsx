@@ -1,12 +1,11 @@
-import './App.css'
+
+import EventDemo from './components/EventDemo'
 
 function App() {
   
   return (
     <>
-      <div>
-        <h1>Hello World!</h1>
-      </div>
+      <EventDemo></EventDemo>
       
     </>
   )
