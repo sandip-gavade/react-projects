@@ -7,11 +7,13 @@ import UserFetcher from './components/UserFetcher';
 import ParentComponent from './components/ParentComponent';
 import LevelOne from './components/PropsLevelOne';
 import ContextLevelOne from './components/ContextApiLevelOne';
+import MainWrapper from './components/MainWrapper';
 
 function App() {
   return (
     <>
-      <ContextLevelOne></ContextLevelOne>
+      <MainWrapper />
+      {/* <ContextLevelOne></ContextLevelOne> */}
       {/* <LevelOne></LevelOne> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <UserFetcher></UserFetcher> */}
